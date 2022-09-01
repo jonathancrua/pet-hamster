@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="Q7.L-[x[`?:HI2vidMw7" x="486" y="-282"><statement name="HANDLER"><block type="device_show_leds" id="yD9?S:TiLMm_K[_Rb84^"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="N?;)!d/c+w;[.J5{],;P"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="8Jo~J=2!?T!*=U`/`?Tb"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . # # # 
+        . . . # . 
+        . . # . #
+        `</field><next><block type="device_show_leds" id="EpCPlbO**|m]p:32LlFp"><field name="LEDS">`
+        . . . . . 
+        . # . . . 
+        # # # . . 
+        . # . . . 
+        # . # . .
+        `</field><next><block type="device_show_leds" id="JZy,rL9/,).A_Iw}h?Hu"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="input_logo_event" id=",zk7Nwp)uQ31Xq*[#RBx" x="1087" y="-263"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="basic_show_icon" id="e7G,E(FG%c_bqm}a^4h!"><field name="i">IconNames.Happy</field><next><block type="SoundExpression_playUntilDone" id="_{Xa*|8S@wPAjGZ$P)E|"><field name="this">soundExpression.giggle</field><next><block type="basic_show_icon" id=":9.LGA])cFNUUUr062t|"><field name="i">IconNames.Asleep</field></block></next></block></next></block></statement></block><block type="pxt-on-start" id="Jcm%DkT$3ysvb+H_W,Gs" x="1080" y="15"><statement name="HANDLER"><block type="basic_show_icon" id="h%Vv0A;9GUm(NL65ZS5I"><field name="i">IconNames.Asleep</field></block></statement></block><block type="device_gesture_event" id="aWuod40:e9-iUiB[4nmw" x="1080" y="183"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_icon" id="zaxxl`5:n@v7Gl[e.2mF"><field name="i">IconNames.Sad</field><next><block type="SoundExpression_playUntilDone" id="3FFvF%oHy_pcP;/%7|Q$"><field name="this">soundExpression.giggle</field><next><block type="basic_show_icon" id="XCFS*lwNH7G^(NN|JtM4"><field name="i">IconNames.Asleep</field></block></next></block></next></block></statement></block></xml>
